@@ -1,3 +1,8 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 # **Habitat Suitability and Distribution Models**
 ### with Applications in R
 \
@@ -37,7 +42,7 @@ If you wish to use any of these figures in a publication, you must get permissio
 Loading required packages
 *biomod2*, *ggplot2*, *gridExtra* and *rgbif*
 ```{r load packages}
-setwd("~/data")
+setwd("/Users/jonathankoch/Google Drive/git_myrepo/hsdm/data")
 library(rgbif)
 library(biomod2)
 library(ggplot2)
